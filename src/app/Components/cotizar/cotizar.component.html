@@ -1,5 +1,5 @@
-<p>cotizar works!</p>
-<div class="row">
+
+<!--<div class="row">
     <div class="col l6 push-l1">
         <div class="row valign-wrapper">
             <h5 class="col 6 left-align">Lista a cotizar</h5>
@@ -11,5 +11,20 @@
     </div>
     <div class="col l5 push-l3">
         <a class="btn" routerLink="/cotizacion"> Cotizar</a>
+    </div>
+</div> -->
+
+<div class="row">
+    <div class="test col l6 push-l1">
+        <div class="row valign-wrapper">
+            <h5 class=" col l6 left-align">Lista de Cotizar</h5>
+            <small class=" col l6 right-align"><strong>ID Cotizacion: XXXXXXXXXX </strong></small>
+        </div>
+        <div class="col l12">
+            <app-tarjeta-cotizar *ngFor="let product of productService.getCotizacion()" [products] = "product"></app-tarjeta-cotizar>
+        </div>
+    </div>
+    <div class="col l5 push-l3">
+        <a class="btn" routerlink="cotizacion">Cotizar</a>
     </div>
 </div>
