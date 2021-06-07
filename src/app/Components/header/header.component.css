@@ -1,0 +1,20 @@
+#logo{
+    margin: 12px;
+    width: 100px;
+    height: auto;
+}
+
+.nav-wrapper{
+    background-color:#0277bd;
+}
+
+.menuelement{
+    margin: 5px;
+    padding: 5px;
+}
+
+#search{
+    background-color: white;
+    margin: 12px;
+    border-radius: 25px;
+}

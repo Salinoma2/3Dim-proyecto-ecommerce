@@ -1,0 +1,15 @@
+<p>cotizar works!</p>
+<div class="row">
+    <div class="col l6 push-l1">
+        <div class="row valign-wrapper">
+            <h5 class="col 6 left-align">Lista a cotizar</h5>
+            <small class="col l6 right-align"><strong>ID cotizacion: XXXXXXXXXX</strong> </small>         
+        </div>
+        <div class="col l12">
+            <app-tarjeta-cotizar *ngfor="let product of productService.getCotizacion()" [products] = "product"></app-tarjeta-cotizar>
+        </div>
+    </div>
+    <div class="col l5 push-l3">
+        <a class="btn" routerLink="/cotizacion"> Cotizar</a>
+    </div>
+</div>

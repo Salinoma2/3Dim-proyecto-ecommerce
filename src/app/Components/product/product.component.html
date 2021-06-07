@@ -1,0 +1,24 @@
+
+
+    <div class="col l3">
+    
+      <div class="card">
+        <a href="viewer"> 
+        <div class="card-image">
+          <img src="../../../assets/resources/{{data.foto}}.png">
+        </div>
+        <div class="card-content">
+          <p class="cat">{{data.id}}</p>
+          <span class="card-title">{{data.title}}</span>
+          <img src="../../../assets/Iconos/icono de rating.png">
+          <br>
+          <div class="price-box right-align">
+          <small class="price">{{data.precio}}</small>
+            </div>
+        </div>
+      </a>
+        <div class="card-action">
+          <a href="cotizacion" class="btn" (click)="addToCotizar()">Add to Cart</a>
+        </div>
+      </div> 
+    </div>

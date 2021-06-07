@@ -1,0 +1,123 @@
+#tridibanner{
+    padding-bottom: 120px;
+    background-position: top;
+    background-color:#0277bd;
+}
+
+#maintitle{
+    position:static;
+    margin-top: 200px;
+    text-align: left;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#maintext{
+    position:static;
+    text-align: left;
+    font-size: 26px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightblue;
+    font-weight: lighter;
+}
+
+.btn-large{
+    text-align: center;
+    background-color:#ff7043;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#canvas {    
+    padding-top: 100px;
+    margin-right: 20px;
+    width: 600px;
+    height:400px;
+     }
+
+.material-icons{
+    width: 200px;
+    height: auto;
+    color:#0277bd;
+}
+
+#trespilares{
+    padding-top: 100px;
+}
+
+.tpicon{
+    width: 52px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.tptitle{
+    color: #ff7043;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.tptext{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+
+}
+
+#editorschoice {
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+
+.carousel{
+    top: -20px;
+    height: 65%;
+}
+
+.carousel .carousel-item{
+    width: 20%;
+}
+
+#catcontainer{
+    margin-top: 50px;
+}
+
+.card-title{
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 32px;
+    text-shadow: black;
+}
+
+#lastdiv{
+    background-color: #f2f2f2;
+    padding: 100px;
+}
+
+.card:hover{
+    width:101%;
+    height: 101%;
+}
+
+.ldtext{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgba(39, 39, 39, 0.747);
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.ldtitle{
+    line-height: 38px;
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+
+}
+
+.sm{
+    margin-right: 20px;
+}
