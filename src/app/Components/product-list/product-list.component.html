@@ -1,177 +1,26 @@
-<!-- 
+ 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<div class="w3-sidebar w3-bar-block w3-light-grey" style="width:25%">
-    <a href="#" class="w3-bar-item w3-button">Price Range</a>
-    <a href="#" class="w3-bar-item w3-button w3-hover-black">Theme</a>
-    <a href="#" class="w3-bar-item w3-button w3-hover-green">Color</a>
+<div class="w3-sidebar w3-bar-block w3-light-grey" style="width:15%">
+   <h2> Filtros </h2>
+   <a href="list" class="w3-bar-item w3-button w3-hover-orange">Rango de Precio</a>
+    <a href="list" class="w3-bar-item w3-button w3-hover-orange">Calificacion</a>
+    <a href="list" class="w3-bar-item w3-button w3-hover-orange">Personajes</a>
+    <a href="list" class="w3-bar-item w3-button w3-hover-orange">Escenarios</a>
   </div>
--->
+
+
 <div class="row">
-    <div class="col l9 ">
+    <div class="col l10 ">
         <app-product *ngFor="let product of productService.products" [data]="product"></app-product>
     </div>
 </div>
 
-
-
-
-
-
-
-<!--
-<div class="small-container" style="margin-left: 25%;">
-    <h2>Explore</h2>
-    -->
-<!--      Tablas           -->
-
-<!--
-    <div class="row">
-        <div class="col-4">
-            <img src="../../../assets/resources/modelo1.png">
-            <h5><b>Modelo de Carro</b></h5>
-            <p>Lorem Ipsum dolor sit amet consecteur adipiscing</p>
-            <div class="rating">
-                <img src="../../../assets/Iconos/icono de rating.png"> 
-               
-            </div>
-            <h6 class="price">$9.99</h6>
-            <div class="card-action">
-                <a class="sub-link" href="#" style="color: black;"><b>Lorem Ipsum</b></a>
-              </div>
-        </div>
-
-        <div class="col-4">
-            <img src="../../../assets/resources/modelo2.png">
-            <h5><b>Modelo de Carro</b></h5>
-            <p>Lorem Ipsum dolor sit amet consecteur adipiscing</p>
-            <div class="rating">
-                <img src="../../../assets/Iconos/icono de rating.png"> 
-               
-            </div>
-            <h6 class="price">$9.99</h6>
-            <div class="card-action">
-                <a class="sub-link" href="#" style="color: black;"><b>Lorem Ipsum</b></a>
-              </div>
-        </div>
-
-        <div class="col-4">
-            <img src="../../../assets/resources/modelo3.png">
-            <h5><b>Modelo de Carro</b></h5>
-            <p>Lorem Ipsum dolor sit amet consecteur adipiscing</p>
-            <div class="rating">
-                <img src="../../../assets/Iconos/icono de rating.png"> 
-               
-            </div>
-            <h6 class="price">$9.99</h6>
-            <div class="card-action">
-                <a class="sub-link" href="#" style="color: black;"><b>Lorem Ipsum</b></a>
-              </div>
-        </div>  
-
-    </div>
-
-    <div class="row">
-        <div class="col-4">
-            <img src="../../../assets/resources/modelo3.png">
-            <h5><b>Modelo de Carro</b></h5>
-            <p>Lorem Ipsum dolor sit amet consecteur adipiscing</p>
-            <div class="rating">
-                <img src="../../../assets/Iconos/icono de rating.png"> 
-               
-            </div>
-            <h6 class="price">$9.99</h6>
-            <div class="card-action">
-                <a class="sub-link" href="#" style="color: black;"><b>Lorem Ipsum</b></a>
-              </div>
-        </div>
-
-        <div class="col-4">
-            <img src="../../../assets/resources/modelo2.png">
-            <h5><b>Modelo de Carro</b></h5>
-            <p>Lorem Ipsum dolor sit amet consecteur adipiscing</p>
-            <div class="rating">
-                <img src="../../../assets/Iconos/icono de rating.png"> 
-               
-            </div>
-            <h6 class="price">$9.99</h6>
-            <div class="card-action">
-                <a class="sub-link" href="#" style="color: black;"><b>Lorem Ipsum</b></a>
-              </div>
-        </div>
-
-        <div class="col-4">
-            <img src="../../../assets/resources/modelo1.png">
-            <h5><b>Modelo de Carro</b></h5>
-            <p>Lorem Ipsum dolor sit amet consecteur adipiscing</p>
-            <div class="rating">
-                <img src="../../../assets/Iconos/icono de rating.png"> 
-               
-            </div>
-            <h6 class="price">$9.99</h6>
-            <div class="card-action">
-                <a class="sub-link" href="#" style="color: black;"><b>Lorem Ipsum</b></a>
-              </div>
-        </div>  
-
-    </div>
-
-    <div class="row">
-        <div class="col-4">
-            <img src="../../../assets/resources/modelo2.png">
-            <h5><b>Modelo de Carro</b></h5>
-            <p>Lorem Ipsum dolor sit amet consecteur adipiscing</p>
-            <div class="rating">
-                <img src="../../../assets/Iconos/icono de rating.png"> 
-               
-            </div>
-            <h6 class="price">$9.99</h6>
-            <div class="card-action">
-                <a class="sub-link" href="#" style="color: black;"><b>Lorem Ipsum</b></a>
-              </div>
-        </div>
-
-        <div class="col-4">
-            <img src="../../../assets/resources/modelo1.png">
-            <h5><b>Modelo de Carro</b></h5>
-            <p>Lorem Ipsum dolor sit amet consecteur adipiscing</p>
-            <div class="rating">
-                <img src="../../../assets/Iconos/icono de rating.png"> 
-               
-            </div>
-            <h6 class="price">$9.99</h6>
-            <div class="card-action">
-                <a class="sub-link" href="#" style="color: black;"><b>Lorem Ipsum</b></a>
-              </div>
-        </div>
-
-        <div class="col-4">
-            <img src="../../../assets/resources/modelo3.png">
-            <h5><b>Modelo de Carro</b></h5>
-            <p>Lorem Ipsum dolor sit amet consecteur adipiscing</p>
-            <div class="rating">
-                <img src="../../../assets/Iconos/icono de rating.png"> 
-               
-            </div>
-            <h6 class="price">$9.99</h6>
-            <div class="card-action">
-                <a class="sub-link" href="#" style="color: black;"><b>Lorem Ipsum</b></a>
-              </div>
-        </div>  
-
-    </div>
--->
-<!--     Paginacion         -->
-
-<!--
-    <ul class="pagination">
-        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
-        <li class="active"><a href="#!">1</a></li>
-        <li class="waves-effect"><a href="#!">2</a></li>
-        <li class="waves-effect"><a href="#!">3</a></li>
-        <li class="waves-effect"><a href="#!">4</a></li>
-        <li class="waves-effect"><a href="#!">5</a></li>
-        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-      </ul>
-
-</div>
--->
+<ul class="pagination">
+    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+    <li class="active"><a href="#!">1</a></li>
+    <li class="waves-effect"><a href="list">2</a></li>
+    <li class="waves-effect"><a href="list">3</a></li>
+    <li class="waves-effect"><a href="list">4</a></li>
+    <li class="waves-effect"><a href="list">5</a></li>
+    <li class="waves-effect"><a href="list"><i class="material-icons">chevron_right</i></a></li>
+  </ul>
